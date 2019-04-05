@@ -1,0 +1,14 @@
+# for jekyll-github-metadata
+repository: trasparente/test-vigilant
+
+# To have /collection/page/ links
+permalink: pretty
+
+# Plugins list
+plugins:
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-github-metadata
+
+# Remote theme
+remote_theme: trasparente/vigilant-winner
