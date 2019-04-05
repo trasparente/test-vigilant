@@ -10,4 +10,4 @@ version:
     name: true
 ---
 
-{% include schema.html schema=page.versions preview=true %}
+{% include schema/form.html schema=page.versions preview=true %}
