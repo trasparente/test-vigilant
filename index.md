@@ -1,4 +1,6 @@
 ---
 ---
-# Start here
+
+# Home
+
 {% include version.html %}
