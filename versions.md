@@ -2,11 +2,13 @@
 title: Versions
 weight: 2
 versions:
+  title: Versions
   properties:
     version:
       items: version
 version:
   properties:
+    title: Version
     number: true
     name: true
 ---
