@@ -4,13 +4,12 @@ weight: 2
 versions:
   title: Versions
   properties:
-    version:
-      items: version
+     items: version
 version:
   properties:
-    title: Version
-    number: true
     name: true
+    number:
+      type: number
 ---
 
 {% include schema/form.html schema=page.versions preview=true %}
