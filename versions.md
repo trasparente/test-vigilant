@@ -1,15 +1,13 @@
 ---
 title: Versions
 weight: 2
-versions:
-  title: Versions
+schema:
   properties:
-     items: version
-version:
-  properties:
-    name: true
-    number:
-      type: number
+    versions:
+      items:
+        title: Version
+        properties:
+          name: true
 ---
 
-{% include schema/form.html schema=page.versions preview=true %}
+{% include schema/form.html schema=page.schema preview=true %}
