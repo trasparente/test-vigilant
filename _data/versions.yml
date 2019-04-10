@@ -1,0 +1,4 @@
+versions:
+  - {name: 'Power on'}
+  - {name: 'Go for propellant load'}
+  - {name: 'Propellant load'}
