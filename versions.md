@@ -10,4 +10,4 @@ schema:
           name: true
 ---
 
-{% include schema/form.html schema=page.schema preview=true %}
+{% include schema/form.html schema=page.schema preview=true file="versions.yml" %}
